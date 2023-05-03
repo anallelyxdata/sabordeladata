@@ -1,0 +1,619 @@
+
+	/* img animacion */
+	.ayuda{
+		position: absolute;
+		top: -7.5vw;
+		width: 15vw;
+		left: -45vw;
+		opacity: .5;
+	}
+	.ayuda-abajo{
+		position: absolute;
+		top: -7.2vw;
+		width: 15.5vw;
+		left: 43vw;
+		opacity: .5;
+	}
+	.hoja-fondo{
+		position: absolute;
+		top: -200vh;
+		width: 400vh;
+		left: -200vh;
+	}
+	#a0{
+		width:9%;
+		top: -153.5%;
+		left: 53%;
+		transform: rotate(145deg);
+	}
+	#a1{
+		width: 7.6vw;
+		top: 36.4vw;
+		left: -37.7vw;
+		transform: rotate(130deg);
+	}
+	#a2{
+		width: 5vw;
+		top: 58.5vw;
+		left: -37vw;
+		transform: rotate(-16deg);
+	}
+	#a3{
+		width: 6vw;
+		top: 20vw;
+		left: 50vw;
+		transform: rotate(-56deg);
+	}
+	#a4{
+		width:1vw;
+		top: 15vw;
+		left: -40.2vw;
+		transform: rotate(45deg);
+	}
+	
+	#a5{
+		width:2vw;
+		top: 18vw;
+		left: 44vw;
+		transform: rotate(45deg);
+	}
+	
+	#a6{
+		width:6.5vw;
+		top: 11vw;
+		left: -41vw;
+		transform: rotate(25deg);
+	}
+	
+	#a7{
+		width:4vw;
+		top: -.2vw;
+		left: -40.2vw;
+		transform: rotate(105deg);
+	}
+	
+	#a8{
+		width:4vw;
+		top: -2vw;
+		left: 52.5vw;
+		transform: rotate(40deg);
+	}
+	
+	#a9{
+		width:2.6vw;
+		top: 32.5vw;
+		left: 53.5vw;
+		transform: rotate(-120deg) scaleX(-1);
+	}
+	
+	#a10{
+		width:50vw;
+		top: -160vw;
+		left: 43.8vw;
+		transform: rotate(0deg);
+	}
+	
+	#a11{
+		width: 4.2vw;
+		top: 27vw;
+		left: 52.9vw;
+	}
+	
+	#a12{
+		width:5.6vw;
+		top: 21vw;
+		left: -44vw;
+		transform: rotate(-170deg);
+	}
+	
+	#a13{
+		width:4.7vw;
+		top: 7vw;
+		left: 52vw;
+		transform: rotate(28deg) scaleX(-1);
+	}
+	
+	#a14{
+		width:6vw;
+		top: -3.7vw;
+		left: -37vw;
+		opacity: 1;
+		transform: rotate(28deg) scaleX(-1);
+	}
+	
+	#a15{
+		width:4vw;
+		top: 3.2vw;
+		left: 52.5vw;
+		transform: rotate(-95deg);
+	}
+	#a16{
+		width:1.2vw;
+		top: 26.1vw;
+		left: 51.3vw;
+	}
+	
+	#a17{
+		width:4vw;
+		top: 48vw;
+		left: -38vw;
+		transform: rotate(-115deg);
+	}
+	
+
+	#a18{
+		width:6vw;
+		top: 54.5vw;
+		left: -40vw;
+		transform: rotate(-85deg);
+	}
+	
+	#a19{
+		width:2.5vw;
+		top: 16.5vw;
+		left: 53.5vw;
+		transform: rotate(35deg);
+	}
+	
+	#a20{
+		width:8.5vw;
+		top: 28vw;
+		left: 47vw;
+		transform: rotate(-35deg);
+	}
+
+	#a21{
+		width:2.6vw;
+		top: 25.7vw;
+		left: 52.5vw;
+		transform: rotate(225deg) scaleX(-1);
+	}
+	
+	#a22{
+		width:1vw;
+		top: 21vw;
+		left: 55.5vw;
+	}
+	
+	#a23{
+		width:3.5vw;
+		top: 3.6vw;
+		left: 46vw;
+		transform: rotate(125deg);
+	}
+	
+	#a24{
+		width:9vw;
+		top: -6.5vw;
+		left: 47.2vw;
+		transform: rotate(-110deg);
+	}
+	
+	#a25{
+		width:4vw;
+		top: 2vw;
+		left: -43.5vw;
+	}
+	
+	#a26{
+		width:5.6vw;
+		top: 29vw;
+		left: 50.5vw;
+	}
+	
+	#a27{
+		width:2.5vw;
+		top: -5.6vw;
+		left: 53.6vw;
+		transform: rotate(180deg)scale(-1);
+	}
+	
+	#a28{
+		width:5vw;
+		top: 46.5vw;
+		left: 51vw;
+		transform: rotate(-40deg)scale(-1);
+	}
+	
+	#a29{
+		width:7vw;
+		top: 9.5vw;
+		left: 46vw;
+		transform: rotate(-80deg)scale(-1);
+	}
+
+	#a31{
+		width:4vw;
+		top: 20.5vw;
+		left: -36.5vw;
+		transform: rotate(-85deg);
+	}
+	
+	#a32{
+		width:6.5vw;
+		top: 19.2vw;
+		left: -43.5vw;
+		transform: rotate(190deg);
+	}
+	
+	#a33{
+		width:1.6vw;
+		top: 32.5vw;
+		left: -36vw;
+		transform: rotate(45deg);
+	}
+	
+
+	#a34{
+		width:3.2vw;
+		top: -.1vw;
+		left: -35.5vw;
+		transform: rotate(-85deg) scaleX(-1);
+	}
+	
+	#a36{
+		width:4vw;
+		bottom: 28.5vw;
+		left: -44vw;
+		transform: rotate(145deg);
+		z-index: 100;
+	}
+	
+	#a37{
+		width:3.5vw;
+		bottom: 30.5vw;
+		left: -40.5vw;
+		transform: rotate(90deg) scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a38{
+		width: 5vw;
+		bottom: 43vw;
+		left: -44vw;
+		transform: rotate(16deg);
+		z-index: 100;
+	}
+	
+	#a39{
+		width: 7vw;
+		bottom: 39.5vw;
+		left: 46vw;
+		transform: rotate(90deg) scale(-1);
+		z-index: 100;
+	}
+	
+	#a40{
+		width: 2.5vw;
+		bottom: 40vw;
+		left: 45.5vw;
+		transform: rotate(-98deg);
+		z-index: 100;
+	}
+	
+	#a41{
+		width: 4.5vw;
+		bottom: 36vw;
+		left: -40vw;
+		transform: rotate(90deg);
+		z-index: 100;
+	}
+	
+
+	#a42{
+		width: 1.2vw;
+		bottom: 30vw;
+		left: -34vw;
+		transform: rotate(0deg);
+		z-index: 100;
+	}
+	
+	#a43{
+		width: 10vw;
+		bottom: 12vw;
+		left: 42.5vw;
+		transform: rotate(-90deg);
+		z-index: 100;
+	}
+	
+	#a44{
+		width: 1.2vw;
+		bottom: 35vw;
+		left: 47.5vw;
+		transform: rotate(0deg);
+		z-index: 100;
+	}
+	
+	#a45{
+		width: 4vw;
+		bottom: -5vw;
+		left: -43vw;
+		transform: rotate(-100deg);
+		z-index: 100;
+	}
+	
+	#a46{
+		width: 8vw;
+		bottom: -18vw;
+		left: 46.5vw;
+		transform: rotate(-30deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a47{
+		width:4vw;
+		bottom: 40.5vw;
+		left: -38.2vw;
+		transform: rotate(20deg) scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a48{
+		width: 3.5vw;
+		bottom: 42vw;
+		left: 44vw;
+		transform: rotate(-184deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a49{
+		width: 5vw;
+		bottom: -12.5vw;
+		left: -36.5vw;
+		transform: rotate(20deg);
+		z-index: 100;
+	}
+	
+	#a50{
+		width: 1.2vw;
+		bottom: 26.5vw;
+		left: -41vw;
+		transform: rotate(115deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a51{
+		width: 2vw;
+		bottom: 25.5vw;
+		left: -33.5vw;
+		transform: rotate(115deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a52{
+		width: 4.5vw;
+		bottom: 32vw;
+		left: -44vw;
+		transform: rotate(-25deg);
+		z-index: 100;
+	}
+	#a53{
+		width: 11vw;
+		bottom: -143vw;
+		left: -5vw;
+		transform: rotate(-170deg);
+		z-index: 100;
+	}
+	
+	#a54{
+		width: 4vw;
+		bottom: 19.2vw;
+		left: 45.2vw;
+		transform: rotate(140deg);
+		z-index: 100;
+	}
+	
+	#a55{
+		width: 1.2vw;
+		bottom: 39.5vw;
+		left: -34vw;
+		transform: rotate(140deg);
+		z-index: 100;
+	}
+	
+	#a56{
+		width: 3.2%;
+		bottom: 38%;
+		left: -73%;
+		transform: rotate(140deg);
+		z-index: 100;
+	}
+	
+	#a57{
+		width: 6%;
+		bottom: 9%;
+		left: -63%;
+		transform: rotate(140deg);
+		z-index: 100;
+	}
+	
+	#a58{
+		width: 6%;
+		bottom: 31%;
+		left: -76%;
+		transform: rotate(140deg);
+		z-index: 100;
+	}
+	
+	#a59{
+		width: 14%;
+		bottom: -25%;
+		left: -86%;
+		transform: rotate(20deg);
+		z-index: 100;
+	}
+	
+	#a60{
+		width: 23%;
+		bottom: 48%;
+		left: 89%;
+		transform: rotate(25deg)scaleX(-1);
+		z-index: 100;
+	}
+	#a61{
+		width: 26%;
+		bottom: -12%;
+		left: -83%;
+		transform: rotate(110deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a62{
+		width: 26%;
+		bottom: -7.5%;
+		left: -84%;
+		transform: rotate(-165deg);
+		z-index: 100;
+	}
+	
+	#a63{
+		width: 15%;
+		bottom: 5%;
+		left: 83.5%;
+		transform: rotate(160deg);
+		z-index: 100;
+	}
+	
+	#a64{
+		width: 9%;
+		bottom: 0%;
+		left: -60%;
+		transform: rotate(-130deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a65{
+		width: 8%;
+		bottom: 66%;
+		left: 110%;
+		transform: rotate(-30deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a66{
+		width: 24%;
+		bottom: -12%;
+		left: 91%;
+		transform: rotate(-50deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a67{
+		width: 16%;
+		bottom: -52%;
+		left: 104%;
+		transform: rotate(-20deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a68{
+		width: 5%;
+		bottom: 58%;
+		left: 106%;
+		transform: rotate(-80deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a69{
+		width: 7%;
+		bottom: -8%;
+		left: -84%;
+		transform: rotate(-80deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a70{
+		width: 10%;
+		bottom: 102%;
+		left: -71.5%;
+		transform: rotate(-40deg);
+		z-index: 100;
+	}
+	
+	#a71{
+		width: 3.5%;
+		bottom: 85%;
+		left: -63%;
+		transform: rotate(-40deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a72{
+		width: 4%;
+		bottom: 69%;
+		left: 87%;
+		transform: rotate(-40deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a73{
+		width: 17%;
+		bottom: -55%;
+		left: 83%;
+		transform: rotate(120deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a74{
+		width: 11%;
+		bottom: 16%;
+		left: -81%;
+		transform: rotate(-195deg);
+		z-index: 100;
+	}
+	
+	#a75{
+		width: 17%;
+		bottom: 46%;
+		left: -69%;
+		transform: rotate(160deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a76{
+		width: 22%;
+		bottom: 46%;
+		left: -79%;
+		transform: rotate(330deg);
+		z-index: 100;
+	}
+	
+	#a77{
+		width: 15%;
+		bottom: -60%;
+		left: -87%;
+		transform: rotate(40deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a78{
+		width: 5%;
+		bottom: 82%;
+		left: 104%;
+		transform: rotate(80deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a79{
+		width: 5%;
+		bottom: 14%;
+		left: 92%;
+		transform: rotate(80deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a80{
+		width: 4%;
+		bottom: 66%;
+		left: 105%;
+		transform: rotate(80deg)scaleX(-1);
+		z-index: 100;
+	}
+	
+	#a81{
+		width: 4%;
+		bottom: 40.5%;
+		left: 102.5%;
+		transform: rotate(80deg)scaleX(-1);
+		z-index: 100;
+	}

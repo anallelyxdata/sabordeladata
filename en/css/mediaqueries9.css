@@ -1,0 +1,1727 @@
+
+@media (min-width: 390px){
+	body{
+		/*border: cyan solid;*/
+	}
+	/* Intro */
+		.home,.welcome{
+			padding: 0 5%;
+			height: 100vh;
+			min-height: 850px;
+			max-height: 900px;
+			width: 100%;
+		}
+		.welcome{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+		}
+		.home-header, .welcome-header{
+			margin: 0 auto;
+			margin-bottom: 16px;
+		}
+		.welcome-header{
+			margin-top: 5vh;
+		}
+		.home-header{
+			margin-top: 32px;
+		}
+		.home-arreglo{
+			width: 420px;
+			height: 420px;
+			display: block;
+			margin: 0 auto;
+			top: 0;
+		}
+		.home-p, .welcome-p, .s-header_p, .chile-Scoville, .ul-platillos, .footer-p{
+			font-size: .8rem;
+		}
+		.card-ins_body p, .asterisco, .maiz-p, .prep-header_p{
+			font-size: .75rem;
+		}
+		.ul-platillos{
+			max-width: 80%;
+		}
+		.footer-titulo{
+			font-size: 1rem;
+		}
+
+
+	/* Chiles */
+		/* d3 */
+			#graficaChilesFrescos{
+				transform: scale(.55);
+				transform-origin: 70% 45%;
+				left: -70%;
+			}
+			#graficaChilesSecos{
+				transform: scale(.55);
+				transform-origin: 70% 45%;
+				left: -70%;
+			}
+			.tabs-chile_grafica{
+				max-width: 150%;
+			}
+			
+	/* Preparaciones */
+
+		.prep-header_txt-titulo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			height: 125px;
+		}
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+	body{
+		/*border: green solid;*/
+	}
+	/* Intro */
+		.home-p, .welcome-p{
+			font-size: .875rem;
+		}
+		.home-header, .welcome-header{
+			margin-bottom: 24px;
+			max-width: 200px;
+		}
+		.home,.welcome{
+			padding: 0 5%;
+			height: 100vh;
+			min-height: 900px;
+			max-height: 1000px;
+			width: 100%;
+		}
+		.welcome{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+		}
+		.home-header, .welcome-header{
+			margin: 0 auto;
+		}
+		.welcome-header{
+			margin-top: 8vh;
+			margin-bottom: 1rem;
+		}
+		.home-header{
+			margin-top: 32px;
+		}
+		.home-arreglo{
+			width: 420px;
+			height: 420px;
+			display: block;
+			margin: 0 auto;
+		}
+		.welcome-p{
+			padding: 0 5vw;
+		}
+		#welcome-xdata{
+			position: absolute;
+			top: 3vw;
+			left: 3vw;
+		}
+		#welcome-xdata img{
+			width: 8vw;
+			max-width: 50px;
+		}
+	
+	/* Chile */
+		/* d3 */
+			#graficaChilesFrescos{
+				transform: scale(.7);
+				transform-origin: 150% 45%;
+				left: -75%;
+			}
+			#graficaChilesSecos{
+				transform: scale(.68);
+				transform-origin: 150% 45%;
+				left: -80%;
+			}
+			.tabs-chile_grafica{
+				width: 800px;
+				max-width: unset;
+			}
+
+	/* Preparaciones */
+		.grafica-prep{
+			width: 85%;
+		}
+		.prep-header_p{
+			max-width: 380px;
+			margin-bottom: 24px;
+		}
+		.prep-header_txt-titulo{
+			height: 165px;
+		}
+
+	/* Footer */
+		.footer-div{
+			padding: 3rem 10% 1rem;
+		}
+		.footer-redes{
+			justify-content: flex-start;
+		}
+		.footer-redes a:first-child{
+			margin-left: 0;
+		}
+		.xdata-footer{
+			width: 60px;
+		}
+
+	/* grafica maiz */
+		
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+	body{
+		/*border: red solid;*/
+	}
+	.desk-none{
+		display: none;
+	}
+	.hoja img{
+		width: 100%;
+	}
+	/* Intro */
+		.home,.welcome{
+			min-height: 1000px;
+			max-height: 1200px;
+		}
+		.home-header-mob{
+			width: 50vw;
+			display: block;
+			margin: auto;
+			margin-top: 5%;
+			margin-bottom: 1rem;
+			max-width: 550px;
+		}
+		.home-arreglo{
+			width: 500px;
+			height: 500px;
+			display: block;
+			margin: 0 auto;
+		}
+		.home-p, .welcome-p, .s-header_p, .chile-Scoville, .ul-platillos, .footer-p{
+			font-size: .85rem;
+		}
+		.card-ins_body p, .asterisco, .maiz-p, .prep-header_p{
+			font-size: .75rem;
+		}
+		.home-header, .welcome-header{
+			max-width: 230px;
+		}
+		.welcome-header{
+			margin-bottom: 24px;
+			margin-top: 10vh;
+		}
+		.welcome-p{
+			/*width: 560px;*/
+			padding: 0 15%;
+		}
+		.alas-abajo{
+			width: 140px
+		}
+		.prep-header .titulo-seccion{
+			max-width: 100%;
+			font-size: 1.2rem;
+		}
+		.ul-platillos{
+			max-width: 500px;
+		}
+
+
+	/* General */
+		.titulo-seccion{
+			padding: 1rem 0;
+			font-size: 1.4rem;
+		}
+		.titulo-seccion span{
+			font-size: 3.4rem;
+		}
+		.s-header_p{
+			max-width: 500px;
+			padding: 1.5rem 1%;
+		}
+		/* Card inst */
+			.card-ins_header{
+				height: max-content;
+				padding: 12px;
+			}
+			.ins_header_titulo{
+				font-size: .95rem;
+			}
+			.card-ins_body{
+				padding: 1rem 0;
+			}
+			.card-ins_body p{
+				width: 85%;
+			}
+
+	/* Chile */
+		.s-chile .titulo-seccion{
+			max-width: 400px;
+		}
+		.s-chile .card-ins_body img{
+			margin-top: 1.5rem;
+			max-width: 360px;
+		}
+		.chile-Scoville{
+			width: 750px;
+			margin: 1.5rem auto;
+		}
+		.asterisco{
+			font-size: .81rem;
+		}
+		/* d3 */
+			.tabs_chile{
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			}
+			#graficaChilesFrescos{
+				transform: scale(.7);
+				transform-origin:-5% 50%;
+				left: 5vw;
+			}
+			#graficaChilesSecos{
+				transform: scale(.7);
+				transform-origin: -10% 50%;
+				left: 5vw;
+			}
+			.tabs-chile_grafica{
+				width: unset;
+				max-width: 110%;
+			}
+
+	/* Maiz */
+		.s-maiz .titulo-seccion{
+			max-width: 350px;
+		}
+
+	/* Preparaciones */
+		.prep-header .titulo-seccion{
+			font-size: 1.2rem;
+		}
+		.prep-header_txt-titulo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			height: 120px;
+			overflow: hidden;
+		}
+		.flor-prep{
+			width: 25%;
+			top: -10%;
+		}
+		.flor-prep-der{
+			right: -6px;
+		}
+		.flor-prep-izq{
+			left: -6px;
+		}
+		.prep-header_p{
+			padding: 0;
+			font-size: .85rem;
+			letter-spacing: .5px;
+			max-width: 500px;
+		}
+		.modal .ul-platillos{
+			width: 100%;
+			font-size: .9rem;
+			padding: 0;
+		}
+		/* cotas */
+			.platillos-ul-titulo{
+				width: max-content;
+				font-size: 1rem;
+			}
+			.ul-platillos{
+				font-size: 1rem;
+				width: 100%;
+				max-width: 500px;
+			}
+			.ul-platillos li:nth-child(5) img{
+				position: relative;
+				bottom: 0;
+			}
+		.s-puntos .card-ins img{
+			/*width: 55%;*/
+		}
+		.btn-prep{
+			width: 200px;
+			height: 40px;
+			/*font-size: 1rem;*/
+		}
+
+		/* platillos */
+			.prep-cazuela{
+				width: 25%;
+				top: 37%;
+				left: 35%;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 22%;
+				top: 33%;
+				left: 35%;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 22%;
+				top: 42%;
+				left: 39%;
+			}
+			.footer-p{
+				font-size: .95rem;
+			}
+		/* footer */
+			.footer-titulo{
+				font-size: 1.2rem;
+			}
+			.footer p{
+				font-size: .85rem;
+				letter-spacing: .5px;
+			}
+			.footer-equipo_ind b, .footer-contacto{
+				font-size: .85rem;
+			}
+
+	/* grafica maiz */
+		/*.margen{
+	      position: absolute;
+	      width: 95%;
+	      top: -15%;
+	      left: 2.5%;
+	    }*/
+}
+
+@media (min-width: 400) and (orientation: landscape){
+	body{
+		/*border: gold solid;*/
+	}
+	/* Intro */
+		.hoja-fondo{
+			top: -300vh;
+			width: 600vh;
+			left: -300vh;
+		}
+		.home,.welcome{
+			min-height: 100vh;
+			display: grid;
+		}
+		.welcome{
+			padding: 18%;
+			grid-template-columns: 35% 65%;
+		}
+		.home-p, .welcome-p{
+			font-size: .7rem;
+		}
+		.welcome-header{
+			max-width: unset;
+			width: 95%;
+		}
+		.welcome-p{
+			text-align: left;
+		}
+		.welcome-p .img-mob{
+			display: none;
+		}
+		.welcome-p .img-desk{
+			display: block;
+			position: absolute;
+			bottom: -84%;
+			width: 20px;
+			right: 18%;
+		}
+		.home{
+			padding: 5%;
+			grid-template-columns: 40% 60%;
+			height: max-content
+		}
+		.home-header{
+			width: 70%;
+			max-width: unset;
+		}
+		.home-arreglo{
+			width: 280px;
+			height: 280px;
+			display: block;
+			margin: 0;
+		}
+	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (orientation: portrait) {
+	body{
+		/*border: hotpink solid;*/
+	}
+
+	/* switch  */
+
+
+	/* Intro */
+		.home-header, .welcome-header{
+			margin-bottom: 5vh;
+			max-width: 260px;
+		}
+		.home-p, .welcome-p{
+			font-size: 1rem;
+		}
+		.welcome-p{
+			width: 600px;
+		}
+		
+		.home-p{
+			max-width: 660px;
+		}
+		.home-arreglo{
+			width: 650px;
+			height: 650px;
+			margin: 25px auto;
+		}
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (orientation: landscape) {
+	body{
+	}
+	/* Intro */
+		.home,.welcome{
+			height: 100vh;
+			min-height: unset;
+			max-height: unset;
+			display: grid;
+		}
+		.welcome{
+			padding: 0 18%;
+			grid-template-columns: 45% 55%;
+		}
+		.home-p, .welcome-p, .prep-header_p{
+		}
+		.welcome-header{
+			max-width: unset;
+			width: 75%;
+			margin-left: 0;
+			display: block;
+		}
+		.welcome-header-mob{
+			display: none;
+		}
+		.welcome-p{
+			width: 98%;
+			text-align: left;
+		}
+		.welcome-p .img-mob{
+			display: none;
+		}
+		.welcome-p .img-desk{
+			display: block;
+			position: absolute;
+			bottom: -86%;
+			width: 25px
+		}
+
+		.home{
+			padding: 10%;
+			grid-template-columns: 40% 60%;
+		}
+		.home>div{
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+		}
+		.home-header{
+			width: 85%;
+			max-width: unset;
+			display: block;
+		}
+		.home-header-mob{
+			display: none;
+		}
+		.home-arreglo{
+			width: 50vw;
+			height: 50vw;
+			display: block;
+			margin: 0;
+		}
+		.alas-abajo{
+			display: none;
+		}
+		.ir-abajo{
+			display: block;
+			position: absolute;
+			bottom: 4%;
+			width: 32px
+		}
+		#welcome-xdata{
+			position: absolute;
+			top: 1vw;
+			left: 4vw;
+		}
+		#welcome-xdata img{
+			width: 8vw;
+		}
+		
+	/* Chile */
+		/* d3 */
+			.tabs_chile{
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			}
+			#graficaChilesFrescos{
+				transform: scale(.7);
+				transform-origin:10% 50%;
+				left: 5vw;
+			}
+			#graficaChilesSecos{
+				transform: scale(.7);
+				transform-origin: 10% 50%;
+				left: 5vw;
+			}
+			.tabs-chile_grafica{
+				width: unset;
+				max-width: 80%;
+			}
+			.chile-tabs{
+				padding-bottom: 0;
+			}
+
+	/* Maiz */
+		.maiz-grafica-mob{
+			/*margin: 0 auto;*/
+			/*max-width: 800px;*/
+		}
+	
+	/* Preparaciones */
+		.flor-prep{
+			width: 25%;
+			top: -15%;
+		}
+		.prep-titulo{
+			font-size: 2rem;
+		}
+		.grafica-prep{
+			width: 80%;
+		}
+		/* platillos */
+			.prep-cazuela{
+				width: 20%;
+				top: 38%;
+				left: 38%;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 18%;
+				top: 34%;
+				left: 38%;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 18%;
+				top: 43%;
+				left: 41%;
+			}
+	
+	/* Footer */
+		.xdata-footer{
+			width: 70px;
+		}
+		.footer-redes img{
+			width: 40px;
+		}
+		.footer-p{
+			margin-bottom: 2rem;
+		}
+
+	/* grafica maiz */
+		#graficaMaiz{
+		  position: relative;
+		  width: 100%;
+		  max-width: 1100px;
+		  margin-top: -12%;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+		.maiz-maiz{
+			top: 4rem !important;
+			left: 1%;
+			z-index: 500;
+		}
+
+	/* switch */
+		.toggle-button-coverEn
+		{
+		    width: 130px;
+		    height: 60px;
+		    margin: 0;
+		    margin-bottom: 1rem;
+		}
+		.knobsEn:after{
+		    width: 65px;
+		    height: 35px;
+		    padding-top: 2.5px;
+		}
+
+		.layerEn:after{
+		    width: 65px;
+		    height: 30px;
+		    padding-top: 2.5px;
+		}
+		
+		.buttonEn
+		{
+		    position: relative;
+		    max-width: 280px;
+		    height: 30px;
+		}
+		.flor-cae{
+			display: block;
+			position: absolute;
+			width: 10%;
+			left: 50%;
+			top: -5%;
+			max-width: 150px;
+		}
+		
+}
+
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	body{
+		/*border: orange solid;*/
+	}
+	
+	
+	/* intro */
+		.home{
+			height: min-content;
+			min-height: 100vh;
+			max-height: unset;
+			display: grid;
+		}
+		.welcome{
+			padding: 0 20%;
+			grid-template-columns: 50% 50%;
+			height: 100vh;
+			max-height: unset;
+			display: grid;
+		}
+		.home-p{
+			width: 105%;
+			max-width: unset;
+			padding: 1rem auto;
+		}
+		.welcome-p{
+			font-size: .85rem;
+			width: 100%;
+			max-width: unset;
+			line-height: 1.6;
+			padding: 0;
+		}
+		.welcome-header{
+			width: 80%;
+			max-width: 400px;
+			position: relative;
+			left: 5%;
+			bottom: 5%;
+		}
+		.home{
+			padding:  1rem 5%;
+		}
+		.home-header{
+			width: 85%;
+			max-width: 350px;
+		}
+		.home-arreglo{
+			width: 490px;
+			height: 490px;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 24px;
+		}
+		.hoja-fondo{
+			position: absolute;
+			top: -200vh;
+			width: 450vh;
+			left: -200vh;
+		}
+
+
+	/* Chile */
+		/* d3 */
+			.tabs_chile{
+				width: 100%;
+				display: flex;
+				justify-content: center;
+			}
+			#graficaChilesFrescos{
+				transform: scale(1);
+				transform-origin:unset;
+				left: 0;
+			}
+			#graficaChilesSecos{
+				transform: scale(1);
+				transform-origin: unset;
+				left: 0;
+			}
+			.tabs-chile_grafica{
+				width: 100%;
+				min-width: 1200px
+			}
+
+	/* Preparaciones */
+		.prep-grafica{
+			margin: 3rem auto 2rem;
+			width: max-content;
+		}
+		.grafica-prep{
+			width: 950px;
+		}
+		/* platillos */
+			.prep-cazuela{
+				width: 230px;
+				top: 400px;
+				left: 335px;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 220px;
+				top: 320px;
+				left: 320px;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 220px;
+				top: 380px;
+				left: 360px;
+			}
+
+	/* Footer */
+		.footer{
+			position: relative;
+		}
+		.footer-div{
+			padding: 4rem 22%;
+		}
+		.footer-flores_div{
+			position: absolute;
+			top: 15%;
+		}
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+	body{
+		/*border: cyan solid;*/
+	}
+	.menu {
+	    height: 55px;
+	}
+	.menu li {
+	    width: 55px;
+	}
+	.li-desk{
+		display: inline-block !important;
+	}
+	.li-mob{
+		display: none;
+	}
+	.li-mobd{
+		display: none !important;
+	}
+	.menu li a, .menu ul{
+	    height: 55px;
+	}
+	.botones-mob{
+		display: none;
+	}
+	.botones-desk{
+		display: block;
+	}
+	.home-arreglo{
+		width: 46vw;
+		height: 46vw;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+	.home{
+		padding: 0 10%;
+	}
+	#welcome-xdata{
+		position: absolute;
+		top: 1vw;
+		left: 1.5vw;
+	}
+	#welcome-xdata img{
+		width: 8vw;
+	}
+	.home-p, .welcome-p, .s-header_p, .chile-Scoville, .ul-platillos, .footer-p,.cotas-desk-list,.ul-platillos{
+			font-size: .85rem;
+		}
+		.card-ins_body p, .asterisco, .maiz-p, .prep-header_p{
+			font-size: .75rem;
+		}
+
+
+	/* General */
+		.s-todas{
+			display: grid;
+			grid-template-columns: 22% 54% 24%;
+			min-height: 100vh;
+			overflow-x: hidden;
+			position: relative;
+			padding-bottom: 0;
+		}
+		.s-puntos-desk{
+			/*min-height: 1000px;*/
+		}
+		/* col 1 */
+			.s-header{
+				text-align: left;
+				top: 0;
+				padding: 10% 8%;
+				height: 100%;
+				min-height: 100vh;
+				position: relative;
+				max-height: 1000px;
+			}
+			.logo-col1{
+				display: block;
+				width: 48px
+			}
+			.s-header .titulo-seccion{
+				width: 100%;
+				padding: 0;
+				margin-top: 5%;
+			}
+			.s-header .titulo-seccion span{
+			}
+			.flor-col1-chile{
+				display: block;
+				position: relative;
+				left: -5vw;
+				margin: 8% 0;
+				width: 100%
+			}
+			.chile-header{
+				position: relative;
+				height: 100%;
+			}
+			.card-ins{
+				position: absolute;
+				min-width: 26vw;
+				width: 26vw;
+				max-width: unset;
+			}
+			.chile-ins .card-ins{
+				bottom: 10%;
+				left: 5vw;
+			}
+			.maiz-ins .card-ins{
+				bottom: 4%;
+				left: 2vw;
+			}
+			.card-ins_header{
+				padding: 12px;
+			}
+
+		/* col 3 */
+			.cotas-mob{
+				display: none;
+			}
+			.cotas-arena{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: space-between;
+				align-items: space-between;
+				height: 100%;
+				padding: 0;
+			}
+			.flor-margen{
+				max-width: 120px;
+				margin: 0 auto;
+			}
+			.cotas-desk-list{
+				display: flex;
+				flex-direction: column;
+				margin: 8px auto 0;
+			}
+			.cotas-desk-list>div{
+				display: flex;
+				margin: 6px auto;
+				align-content: center;
+				align-items: center;
+				width: 100%;
+			}
+			.cotas-desk-list>div img{
+				margin-right: 6px;
+				width: 20px;
+			}
+			.cotas-desk-list>div img.hoja{
+				width: 22px;
+				margin-left: -2px;
+			}
+			.scoville-desk{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				margin: 1rem 0;
+				font-size: .95rem;
+				font-weight: bold;
+			}
+			.scoville-desk img{
+				width: 70%;
+				display: block;
+				margin: 30px auto 0;
+				max-width: 300px;
+			}
+			.sin-rango{
+				margin: 4px auto 6px;
+				display: flex;
+				align-items: center;
+				align-content: center;
+				font-size: .85rem;
+				justify-content: center;
+			}
+			.sin-rango img{
+				width: 18px;
+				margin-right: 8px;
+			}
+			.cotas-arena_p{
+				font-size: .85rem;
+				line-height: 1.6;
+				width: 80%;
+				margin: 16px auto;
+			}
+			.chile-tabs_button{
+				margin: 0 auto;
+			}
+			.asterisco{
+				width: 80%;
+				font-size: .75rem;
+				max-width: 300px;
+				margin: 0 auto;
+				text-align: right;
+				padding: 0;
+				margin-top: 12px;
+			}
+			.nochebuena{
+				/*display: none;*/
+				margin: 6px auto;
+				width: 60px;
+			}
+
+	/* Chile */
+		.chile-header{
+			background: var(--olivo);
+		}
+		.switch-mob, .cotas-mob{
+			display: none;
+		}
+		.cotas-desk{
+			display: block;
+		}
+		.s-chile{
+			max-height: 1000px;
+			min-height: unset;
+			height: unset;
+			overflow: hidden;
+		}
+
+		/* Chile */
+			/* d3 */
+				.tabs_chile{
+					width: 54vw;
+					display: flex;
+					justify-content: center;
+					overflow: hidden;
+					/*background-color: #eaeaea;*/
+				}
+				#graficaChilesFrescos{
+					transform: scale(.75);
+					transform-origin:5% 10%;
+					left: 0;
+					z-index: 10;
+					width: max-content;
+					height: 100%;
+				}
+				#graficaChilesSecos{
+					transform: scale(.70);
+					transform-origin: 0% 10%;
+					left: 0;
+				}
+				.tabs-chile_grafica{
+					width: 54vw;
+				}
+	/* Maíz */
+		.ins-maiz-mob{
+			display: none;
+		}
+		.s-maiz{
+			min-height: 1000px;
+		}
+		.s-maiz .s-header{
+			background: var(--rosa);
+		}
+		.ins-maiz-desk{
+			display: block;
+			width: 60%;
+			margin: 16px auto;
+		}
+		.maiz-flor{
+			display: none;
+		}
+		.s-maiz .titulo-seccion{
+			margin-top: 10%;
+		}
+		.grafica-maiz{
+			transform: rotate(-90deg);
+			position: relative;
+			left: 30%;
+			bottom: 5%;
+		}
+		.maiz-maiz{
+			position: absolute;
+			left: 30vw;
+			top: 35%;
+		}
+		.maiz-p{
+			display: none
+		}
+		.flor-maiz-desk{
+			display: block;
+			position: absolute;
+			width: 75%;
+			left: -10%;
+		}
+
+	/* preparaciones */
+		/* puntos */
+			.container-puntos{
+				display: none;
+			}
+			.container-puntos-desk{
+				display: block;
+				height: 100%;
+			}
+		.container-puntos-desk{
+			/*height: 400vh;*/
+			position: relative;
+		}
+		.s-puntos{
+			display: none;
+		}
+		.s-puntos-desk{
+			display: grid;
+			grid-template-columns: 25% 55% 20%;
+			/*position: sticky;*/
+			top: 0;
+			position: relative;
+		}
+
+		.s-platillos-desk{
+			background-color: var(--arena2);
+		}
+		.s-platillos-desk#bebidas{
+			background-color: var(--arena);
+		}
+		
+		
+		/* col 1 */
+			.prep-col1{
+				padding: 10% 10%;
+				position: relative;
+				min-height: 100vh;
+				padding-right: 0;
+			}
+			.flor-pcol1{
+				width: 60%;
+				position: relative;
+				left: -20%;
+			}
+			.platillos-col1 .titulo-seccion{
+				font-size: 1.4rem;
+				line-height: 1.4;
+				text-transform: uppercase;
+				margin-top: 1rem;
+			}
+			
+			.prep-titulo{
+				font-size: 2.4rem;
+			}
+			.prep-col1-p{
+				margin: 1rem 0 0;
+				line-height: 1.6;
+				width: 100%;
+				font-size: .85rem;
+			}
+			#buttons-prep-p{
+				font-size: .75rem;
+			}
+			.texto-puntos{
+				position: relative;
+				transition: all .4s ease;
+				left: 0;
+				margin-top: 1rem;
+			}
+
+			/* ins */
+			.platillos-ins .card-ins{
+				min-width: unset;
+				width: 100%;
+				margin: 0;
+				left: 0;
+				max-width: 360px;
+				position: relative;
+				margin-top: 1rem;
+			}
+			.platillos-ins .ins_header_titulo{
+				text-transform: uppercase;
+			}
+			.platillos-ins .card-ins_body p{
+				font-size: .75rem;
+				line-height: 1.4;
+			}
+			.platillos-ins .card-ins_body p.p-detalle{
+				font-size: .75rem;
+				max-width: 100%;
+			}
+			 .platillos-ins .card-ins_body img{
+				width:70%;
+				margin: .6rem 0;
+			}
+
+		/* col2 */
+			.prep-col2 {
+				display: flex;
+				justify-content: center;
+				align-content: flex-start;
+				align-items: flex-start;
+				/*position: relative;*/
+			}
+			.prep-col2-graf{
+				position: relative;
+				max-width: 98%;
+			}
+			.prep-col2-icon{
+				position: absolute;
+				width: 25%;
+				top: 40%;
+				left: 34%;
+				animation: boton-twingle-c 2s ease infinite;
+			}
+			.graf-bebidas-desk, .graf-postres-desk{
+				max-width: 80%;
+			}
+			.prep-icon-jarron{
+				width: 20%;
+				top: 35%;
+				left: 35%;
+			}
+			.prep-icon-pepitoria{
+				width: 20%;
+				top: 36%;
+				left: 36%;
+			}
+			.prep-icon-cazuela{
+				width: 22%;
+				top: 40%;
+				left: 35%;
+			}
+
+		/* col3 */
+			.platillos-col3{
+				padding: 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding-right: 1rem;
+			}
+			
+
+			/* cotas */
+				.platillos-cotas{
+					text-align: center;
+				}
+				.platillos-ul-titulo{
+					width: 80%;
+					font-size: 1.3rem;
+				}
+				.margen-ins{
+					/*width: 35%;
+					max-width: 140px;*/
+					height: 8vh;
+					width: 100%;
+					object-fit: contain;
+				}
+				.ul-platillos{
+					padding: 0  0 1rem;
+					column-count: 1;
+					width: max-content;
+					display: block;
+					margin: auto;
+				}
+				.ul-platillos li{
+					display: flex;
+					align-items: center;
+					padding:  6px 0;
+				}
+				.ul-platillos li img{
+					width: 16px;
+					margin-right: 10px;
+				}
+				.ul-platillos li:nth-child(5) img{
+					bottom: 0px;
+					margin-right: 17px;
+				}
+			.btn-prep{
+				/*height: 50px;*/
+			}
+			.btn-platillos{
+				background: rgb(32,164,134);
+				background: linear-gradient(90deg, rgba(32,164,134,1) 19%, rgba(149,178,81,1) 100%);
+				margin: 0 auto;
+				color: var(--arena2);
+			}
+			.btn-bebidas{
+				margin: 0 auto;
+				color: var(--arena2);
+			}
+			.btn-postres{
+				margin: 0 auto;
+			}
+
+	/* overlay */
+		.my-modal {
+		    position: fixed;
+		    background-color: var(--arena);
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    display: none;
+		    overflow: auto;
+		    z-index: 10;
+		}
+		.my-modal-content {
+		    position: absolute;
+		    width: max-content;
+		    text-align: center;
+		    background-color: var(--arena);
+		    box-shadow: none;
+		    text-align: left;
+		}
+		.my-modal-content-desk{
+		    height: max-content;
+		    width: 100%;
+		}
+		.detalles-desk-platillos{
+			width: 150%;
+		}
+		.detalles-desk-postres{
+			width: 65%;
+		}
+		.detalles-desk-bebidas{
+			width: 95%;
+			margin-left: 3rem;
+		}
+		#close-platillos-desk{
+			position: fixed;
+
+			top: 1rem;
+			right: 5rem;
+		}
+		.detalle-desk-title{
+			font-family: 'circularstd-book',serif;
+			font-size: 1.6rem;
+			font-weight: lighter;
+			width: 480px;
+			text-align: left;
+			margin: 2rem 5%;
+			letter-spacing: 3px;
+		}
+		.detalle-desk-subtitle{
+			font-family: 'Hubert';
+			text-align: left;
+			margin: 2rem 5%;
+			font-size: 3rem;
+		}
+	
+	/* efectos de scroll */
+		.s-bebidas-desk{
+			height: 150vh;
+			width: 20px;
+		}
+		.s-postres-desk{
+			height: 150vh;
+			width: 20px;
+		}
+		#bandera-bebidas-texto{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			background-color: transparent;
+		}
+		#bandera-postres-texto{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: 90%;
+			left: 0;
+			background-color: transparent;
+		}
+		.textoPlatillos{
+			position: relative;
+			left: 0;
+			animation-name: textoPlatillos;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoPlatillos {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+		.textoBebidas{
+			position: relative;
+			left: 0;
+			animation-name: textoBebidas;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoBebidas {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+		.textoPostres{
+			position: relative;
+			left: 0;
+			animation-name: textoPostres;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoPostres {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+
+		/* grafica */
+			.container-beb.graficaBebidas{
+				animation-name: graficaBebidas;
+				animation-duration: 3s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+			}
+			.container-pos.graficaPostres{
+				animation-name: graficaPostres;
+				animation-duration: 3s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+			}
+			.container-pl.graficaPlatillos{
+				animation-name: graficaPlatillos;
+				animation-duration: 3s;
+				animation-iteration-count: 1;
+				animation-fill-mode: forwards;
+			}
+			@keyframes graficaBebidas {
+				50%{
+					transform: scale(.5);
+					opacity: 0;
+				}
+				100%{
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+			@keyframes graficaPostres {
+				50%{
+					transform: scale(.5);
+					opacity: 0;
+				}
+				100%{
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+			@keyframes graficaPlatillos {
+				50%{
+					transform: scale(.5);
+					opacity: 0;
+				}
+				100%{
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+
+	/* footer */
+		.footer-div{
+			padding: 6rem 25%;
+		}
+		.footer-flor{
+			width: 45%;
+			margin-top: 1rem;
+			max-width: 280px;
+			max-width: 280px;
+			position: relative;
+		}
+
+	/* grafica de maiz */
+		.containergraficaMaiz{
+			display: none;
+		}
+		.maiz-grafica-mob{
+			max-width: 100vw;
+			width: 77vw;
+			overflow-x: visible;
+		}
+		.containergraficaMaizDesktop{
+			display: block;
+			width: 100%;
+			/*border-style: solid;*/
+			height: 100%;
+			position: relative;
+		}
+		.margen_D{
+	      position: absolute;
+	      height: 90%;
+	      top: 4%;
+	      right: 30%;
+	    }
+	    #graficaMaizDesktop svg{
+	    	transform: rotate(148deg);
+	    	position: absolute;
+	    	height: 90%;
+	    	width: max-content;
+	    	right: 11%;
+	    	top: 4%;
+	    }
+	    .maiz-maiz{
+	    	position: absolute;
+	    	left: 15%;
+	    	top: 36%;
+	    	width: 130px;
+	    	max-width: 500px;
+	    }
+
+	/* scroll effect  */
+		.container-puntos-desk{
+			max-height: max-content;
+		}
+		.s-puntos-desk{
+			position: relative;
+			height: 100vh;
+
+			/*border-style: dashed;*/
+		}
+		.cuadro{
+			width: 12x;
+			height: 12x;
+			position: absolute;
+			top: 80%;
+		}
+		.s-sticky{
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			/*background-color: lightseagreen;*/
+		}
+		#graficaPlatillos svg{
+			max-height: 100vh;
+		}
+		#graficaPostres svg{
+			max-height: 110vh;
+		}
+		#graficaBebidas svg{
+			max-height: 110vh;
+		}
+		
+		/*.footer{
+			position: sticky;
+			bottom: 0;
+		}*/
+		.container-beb{
+			display: none;
+			/*border: dotted;*/
+
+		}
+		.container-pos{
+			display: none;
+			/*border: dashed;*/
+		}
+		.container-pl{
+			display: block;
+			/*border: solid;*/
+		}
+		.s-thin{
+			width: 10px;
+		}
+}
+
+@media (min-width: 1600px) {
+
+	body{
+		/*border: red solid;*/
+	}
+	.home-arreglo{
+		width: 36vw;
+		height: 36vw;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 0;
+		/*max-width: 680px;*/
+		/*max-height: 680px;*/
+	}
+	.home-p{
+		line-height: 1.6;
+		width: 850px
+	}
+	/* General */
+		/* col 1 */
+			.logo-col1{
+				display: block;
+				width: 56px
+			}
+			.s-header .titulo-seccion{
+				font-size: 1.4rem;
+				letter-spacing: 3px;
+				line-height: 1.6;
+				margin-top: 10%;
+			}
+			.s-header .titulo-seccion span{
+				display: block;
+				font-size: 3.2rem;
+				line-height: 1.1;
+			}
+			.flor-col1-chile{
+				margin: 22px 0;
+				width: 80%;
+			}
+			.card-ins{
+				position: absolute;
+				min-width: unset;
+				width: 360px;
+			}
+			.maiz-ins .card-ins{
+				bottom: 8%;
+				left: 5vw;
+			}
+			.card-ins_header{
+				padding: 12px;
+			}
+			.ins_header_titulo{
+				font-size: .975rem;
+			}
+			.card-ins_body p{
+				font-size: .75rem;
+			}
+
+	/* Chile */
+		/* d3 */
+			.tabs_chile{
+				width: 54vw;
+				display: flex;
+				justify-content: center;
+				overflow: visible;
+				min-height: 100vh;
+			}
+			.s-chile{
+				/*max-height: 1100px;*/
+			}
+			#graficaChilesFrescos{
+				transform: scale(.80);
+				transform-origin: 0% -20%;
+			}
+			#graficaChilesSecos{
+				transform: scale(.80);
+				transform-origin: 0% 0%;
+				left: 0;
+			}
+			.tabs-chile_grafica{
+				display: block;
+			}
+	#graficaMaizDesktop svg{
+		transform: rotate(148deg);
+		position: absolute;
+		height: 100%;
+		width: max-content;
+		right: 11%;
+		top: -6%;
+	}
+	
+	.flor-maiz-desk{
+		display: block;
+		position: absolute;
+		width: 65%;
+		left: -10%;
+		z-index: 10;
+	}
+}
+
+
+@media (min-width: 1800px) {
+			#graficaChilesFrescos{
+				transform: scale(.92);
+				transform-origin: 0% -100%;
+			}
+			#graficaChilesSecos{
+				transform: scale(.85);
+				transform-origin: 0% 0%;
+			}
+			.container-puntos-desk{
+				max-height: max-content;
+			}
+			.s-puntos-desk{
+				/*height: 1200px;*/
+			}
+			.s-sticky{
+				/*top: -15%;*/
+			}
+}

@@ -1,0 +1,799 @@
+[
+    {
+        "name": "especies.maiz.n1",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.o3",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.o4",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Zapalotechico",
+        "visible": "Zapalote chico",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Ratón",
+        "visible": "Ratón",
+        "size": 40,
+        "imports": []
+    },
+    {
+        "name": "especies.maiz.Nal-Tel",
+        "visible": "Nal-Tel",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Conejo",
+        "visible": "Conejo",
+        "size": 40,
+        "imports": [
+        ]
+    },  
+    {
+        "name": "especies.maiz.AmarilloDeMontana",
+        "visible": "Amarillo de montaña",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Gordo",
+        "visible": "Gordo",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.CristalinoChihuahua",
+        "visible": "Cristalino Chihuahua",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.ComplejoSerrano",
+        "visible": "Complejo Serrano",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Azul",
+        "visible": "Azul",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Apachito",
+        "visible": "Apachito",
+        "size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.ZamoranoAmarillo",
+        "visible": "Zamorano amarillo","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.TabloncilloPerla",
+        "visible": "Tabloncillo Perla","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Tabloncillo",
+        "visible": "Tabloncillo","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.TablillaDeOcho",
+        "visible": "Tablilla de ocho","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Onaveño",
+        "visible": "Onaveño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Jala",
+        "visible": "Jala","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.HarinosoDeOcho",
+        "visible": "Harinoso de ocho","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.ElotesOccidentales",
+        "visible": "Elotes occidentales","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Bolita",
+        "visible": "Bolita","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Bofo",
+        "visible": "Bofo","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Blando",
+        "visible": "Blando","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Ancho",
+        "visible": "Ancho","size": 40,
+        "imports": [
+        ]
+    },
+
+    {
+        "name": "especies.maiz.Tehua",
+        "visible": "Tehua","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.SerranoMixe",
+        "visible": "Serrano Mixe","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Serrano",
+        "visible": "Serrano","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Quicheño",
+        "visible": "Quicheño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Olotón",
+        "visible": "Olotón","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Olotillo",
+        "visible": "Olotillo","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.NegroChimaltenango",
+        "visible": "Chimaltenango","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Motozinteco",
+        "visible": "Motozinteco","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Mixteño",
+        "visible": "Mixteño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Coscompatepec",
+        "visible": "Coscompatepec","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Comiteco",
+        "visible": "Comiteco","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Dzit-Bacal",
+        "visible": "Dzit-Bacal","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Dzit-Bacal",
+        "visible": "Dzit-Bacal","size": 40,
+        "imports": [
+        ]
+    },
+
+    {
+        "name": "especies.maiz.Zapalotegrande",
+        "visible": "Zapalote grande","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Verdeño",
+        "visible": "Verdeño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Tuxpeñonorteño",
+        "visible": "Tuxpeño norteño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Tuxpeño",
+        "visible": "Tuxpeño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Tepecintle",
+        "visible": "Tepecintle","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Pepitilla",
+        "visible": "Pepitilla","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Nal-TelAltura",
+        "visible": "Nal-Tel de altura","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.CubanoAmarillo",
+        "visible": "Cubano amarillo","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Chiopaneco",
+        "visible": "Chiopaneco","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Chiquito",
+        "visible": "Chiquito","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Celaya",
+        "visible": "Celaya","size": 40,
+        "imports": [
+        ]
+    },
+
+
+    {
+        "name": "especies.maiz.Uruapeño",
+        "visible": "Uruapeño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.PalomeñoToluqueño",
+        "visible": "Palomeño Toluqueño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.PalomeroJalisco",
+        "visible": "Palomero de Jalisco","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.PalomeroChihuahua",
+        "visible": "Palomero de Chihuahua","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Negrito",
+        "visible": "Negrito","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.MushitoMichoacan",
+        "visible": "Mushito de Michoacan","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Mushito",
+        "visible": "Mushito","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Mixteco",
+        "visible": "Mixteco","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Elotesconicos",
+        "visible": "Elotes cónicos","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Dulce",
+        "visible": "Dulce","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.maiznorteño",
+        "visible": "Cónico norteño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Conico",
+        "visible": "Cónico","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Chalqueño",
+        "visible": "Chalqueño","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Cacahuacintle",
+        "visible": "Cacahuacintle","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.Arrocillo",
+        "visible": "Arrocillo","size": 40,
+        "imports": [
+        ]
+    },
+
+
+    {
+        "name": "especies.maiz.Reventador",
+        "visible": "Reventador","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.EloteroSinaloa",
+        "visible": "Elotero de Sinaloa","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.DulcilloNoroeste",
+        "visible": "Dulcillo del noroeste","size": 40,
+        "imports": [
+        ]
+    },
+     {
+        "name": "especies.maiz.n2",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.n3",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+    {
+        "name": "especies.maiz.n4",
+        "visible": "","size": 40,
+        "imports": [
+        ]
+    },
+
+
+   
+     {
+        "name": "usos.usosMaiz.Pozole",
+        "visible": "Pozole","size": 40,
+        "imports": [
+            "especies.maiz.Cacahuacintle",
+            "especies.maiz.Ancho",
+            "especies.maiz.Bofo",
+            "especies.maiz.ElotesOccidentales",
+            "especies.maiz.HarinosoDeOcho",
+            "especies.maiz.HarinosoDeOcho",
+            "especies.maiz.Jala",
+            "especies.maiz.Onaveño",
+            "especies.maiz.Tabloncillo",
+            "especies.maiz.CristalinoChihuahua"
+
+        ]
+    },
+     {
+        "name": "usos.usosMaiz.b4",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+     
+    {
+        "name": "usos.usosMaiz.Elotes",
+        "visible": "Elotes","size": 40,
+        "imports": [
+            "especies.maiz.DulcilloNoroeste",
+            "especies.maiz.Cacahuacintle",
+            "especies.maiz.Conico",
+            "especies.maiz.Dulce",
+            "especies.maiz.Pepitilla",
+            "especies.maiz.Tuxpeño",
+            "especies.maiz.Zapalotegrande",
+            "especies.maiz.Comiteco",
+            "especies.maiz.Coscompatepec",
+            "especies.maiz.Olotón",
+            "especies.maiz.ElotesOccidentales",
+            "especies.maiz.Jala",
+            "especies.maiz.TablillaDeOcho",
+            "especies.maiz.Tabloncillo",
+            "especies.maiz.Apachito",
+            "especies.maiz.Nal-Tel",
+            "especies.maiz.Zapalotechico"
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.c4",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Tortilla",
+        "visible": "Tortilla","size": 40,
+        "imports": [
+            "especies.maiz.Arrocillo",
+            "especies.maiz.Chalqueño",
+            "especies.maiz.Conico",
+            "especies.maiz.Mushito",
+            "especies.maiz.Pepitilla",
+            "especies.maiz.Tepecintle",
+            "especies.maiz.Tuxpeño",
+            "especies.maiz.Tuxpeñonorteño",
+            "especies.maiz.Comiteco",
+            "especies.maiz.Coscompatepec",
+            "especies.maiz.Olotillo",
+            "especies.maiz.Olotón",
+            "especies.maiz.Bolita",
+            "especies.maiz.HarinosoDeOcho",
+            "especies.maiz.Jala",
+            "especies.maiz.Onaveño",
+            "especies.maiz.TablillaDeOcho",
+            "especies.maiz.Tabloncillo",
+            "especies.maiz.TabloncilloPerla",
+            "especies.maiz.ZamoranoAmarillo",
+            "especies.maiz.Apachito",
+            "especies.maiz.Azul",
+            "especies.maiz.ComplejoSerrano",
+            "especies.maiz.Nal-Tel",
+            "especies.maiz.Zapalotechico"
+        ]
+    },
+     {
+        "name": "usos.usosMaiz.p4",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Pinole",
+        "visible": "Pinole","size": 40,
+        "imports": [
+            "especies.maiz.DulcilloNoroeste",
+            "especies.maiz.EloteroSinaloa",
+            "especies.maiz.Reventador",
+             "especies.maiz.Cacahuacintle",
+            "especies.maiz.Chalqueño",
+            "especies.maiz.Dulce",
+            "especies.maiz.Elotesconicos",
+            "especies.maiz.ElotesOccidentales",
+            "especies.maiz.TablillaDeOcho",
+            "especies.maiz.TabloncilloPerla",
+            "especies.maiz.ZamoranoAmarillo",
+            "especies.maiz.Apachito",
+            "especies.maiz.Azul"
+        ]
+    },
+    
+    
+    {
+        "name": "usos.usosMaiz.d4",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Atole",
+        "visible": "Atole","size": 40,
+        "imports": [
+            "especies.maiz.EloteroSinaloa",
+            "especies.maiz.Cacahuacintle",
+            "especies.maiz.Elotesconicos",
+            "especies.maiz.Pepitilla",
+            "especies.maiz.Zapalotegrande",
+            "especies.maiz.Comiteco",
+            "especies.maiz.Coscompatepec",
+            "especies.maiz.Olotón",
+            "especies.maiz.Blando",
+            "especies.maiz.Bofo",
+            "especies.maiz.ElotesOccidentales",
+            "especies.maiz.HarinosoDeOcho",
+            "especies.maiz.Apachito",
+            "especies.maiz.Azul",
+            "especies.maiz.Nal-Tel",
+            "especies.maiz.Zapalotechico"
+        ]
+    },
+    
+    {
+        "name": "usos.usosMaiz.e4",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Tamales",
+        "visible": "Tamales","size": 40,
+        "imports": [
+            "especies.maiz.Chalqueño",
+            "especies.maiz.Pepitilla",
+            "especies.maiz.Tuxpeño",
+            "especies.maiz.Coscompatepec",
+            "especies.maiz.Olotón"
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.a5",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+     {
+        "name": "usos.usosMaiz.Esquites",
+        "visible": "Esquites","size": 40,
+        "imports": [
+            "especies.maiz.DulcilloNoroeste",
+            "especies.maiz.EloteroSinaloa",
+            "especies.maiz.Dulce"
+        ]
+    },
+    
+   
+     {
+        "name": "usos.usosMaiz.b5",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Antojitos",
+        "visible": "Masa para antojitos","size": 40,
+        "imports": [
+            "especies.maiz.Arrocillo",
+            "especies.maiz.Chalqueño",
+            "especies.maiz.Conico",
+            "especies.maiz.Elotesconicos",
+            "especies.maiz.Mushito"
+        ]
+    },
+    
+    {
+        "name": "usos.usosMaiz.c5",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Palomitas",
+        "visible": "Palomitas","size": 40,
+        "imports": [
+            "especies.maiz.EloteroSinaloa",
+            "especies.maiz.Reventador",
+            "especies.maiz.Arrocillo",
+            "especies.maiz.PalomeroChihuahua",
+            "especies.maiz.PalomeroJalisco",
+            "especies.maiz.PalomeñoToluqueño",
+            "especies.maiz.Nal-Tel"
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.d5",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+     {
+        "name": "usos.usosMaiz.Frituras",
+        "visible": "Frituras","size": 40,
+        "imports": [
+            "especies.maiz.Zapalotegrande",
+            "especies.maiz.TabloncilloPerla",
+            "especies.maiz.Azul",
+            "especies.maiz.ComplejoSerrano",
+            "especies.maiz.Zapalotechico"
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.e5",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Galletas",
+        "visible": "Galletas","size": 40,
+        "imports": [
+            "especies.maiz.EloteroSinaloa",
+            "especies.maiz.Cacahuacintle",
+            "especies.maiz.Bofo",
+            "especies.maiz.HarinosoDeOcho",
+            "especies.maiz.Jala",
+            "especies.maiz.Gordo"
+        ]
+    },
+    
+   
+    {
+        "name": "usos.usosMaiz.a6",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Bebidas",
+        "visible": "Bebidas","size": 40,
+        "imports": [
+            "especies.maiz.Tepecintle",
+            "especies.maiz.Tuxpeño",
+            "especies.maiz.Zapalotegrande",
+            "especies.maiz.Comiteco",
+            "especies.maiz.Olotón",
+            "especies.maiz.Bofo",
+            "especies.maiz.Bolita",
+            "especies.maiz.TablillaDeOcho",
+            "especies.maiz.Tabloncillo",
+            "especies.maiz.Apachito",
+            "especies.maiz.Azul",
+            "especies.maiz.Nal-Tel",
+            "especies.maiz.Apachito",
+            "especies.maiz.Azul"
+        ]
+    },
+    
+     {
+        "name": "usos.usosMaiz.b6",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Harina",
+        "visible": "Harina","size": 40,
+        "imports": [
+            "especies.maiz.Cacahuacintle",
+            "especies.maiz.Uruapeño",
+            "especies.maiz.Verdeño",
+            "especies.maiz.Gordo"
+        ]
+    },
+    
+    {
+        "name": "usos.usosMaiz.c6",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.Combustible",
+        "visible": "Combustible","size": 40,
+        "imports": [
+            "especies.maiz.Olotón"
+        ]
+    },
+    {
+        "name": "usos.usosMaiz.e6",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+   
+     {
+        "name": "usos.usosMaiz.Forraje",
+        "visible": "Forraje","size": 40,
+        "imports": [
+            "especies.maiz.DulcilloNoroeste",
+            "especies.maiz.Chalqueño",
+            "especies.maiz.Conico",
+            "especies.maiz.Comiteco",
+            "especies.maiz.Olotón",
+            "especies.maiz.Jala",
+            "especies.maiz.Onaveño",
+            "especies.maiz.ZamoranoAmarillo",
+            "especies.maiz.Zapalotechico"
+        ]
+    },
+     {
+        "name": "usos.usosMaiz.d6",
+        "visible": "","size": 40,
+        "imports": [
+
+        ]
+    },
+    
+    {
+        "name": "usos.usosMaiz.Pigmentos",
+        "visible": "Pigmentos","size": 40,
+        "imports": [
+            "especies.maiz.Elotesconicos",
+            "especies.maiz.Azul"
+
+        ]
+    }
+    
+]

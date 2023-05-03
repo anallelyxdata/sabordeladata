@@ -1,0 +1,1535 @@
+
+@media (min-width: 400px){
+	body{
+		/*border: cyan solid;*/
+	}
+	/* d3 */
+
+
+
+	.box{
+		/*overflow-x: hidden;*/
+	}
+	.home,.welcome{
+		padding: 0 5%;
+		height: 100vh;
+		min-height: 850px;
+		max-height: 900px;
+		width: 100%;
+	}
+	.welcome{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	.home-header, .welcome-header{
+		margin: 0 auto;
+		margin-bottom: 16px;
+	}
+	.welcome-header{
+		margin-top: 5vh;
+	}
+	.home-header{
+		margin-top: 32px;
+	}
+	.home-arreglo{
+		width: 420px;
+		height: 420px;
+		display: block;
+		margin: 0 auto;
+	}
+	.home-p, .welcome-p{
+		font-size: .795rem;
+	}
+	
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px){
+
+	body{
+		border: green solid;
+	}
+
+
+	/*d3*/
+		#graficaChilesFrescos{
+			position: absolute;
+			transform: scale(.55);
+			transform-origin: 52% 45%;
+		}
+		#graficaChilesSecos{
+			position: absolute;
+			transform: scale(.55);
+			transform-origin: 52% 45%;
+		}
+		.tabs-chile_grafica{
+			display: block;
+			margin: auto;
+			max-width: 100%;
+			visibility: hidden;
+		}
+		.chile-absolute.fresco{
+			position: absolute;
+			top: 38%;
+			left: calc(48%);
+			width: 7%;
+			transform: rotate(20deg);
+			animation: boton-twingle-c 2s ease infinite;
+		}
+		.chile-absolute.seco{
+			position: absolute;
+			top: 36%;
+			left: calc(47%);
+			width: 11%;
+			animation: boton-twingle-c 2s ease infinite;
+		}
+	
+	.home-p, .welcome-p{
+		font-size: .875rem;
+	}
+	.home-header, .welcome-header{
+		margin-bottom: 24px;
+		max-width: 200px;
+	}
+	.home,.welcome{
+		padding: 0 5%;
+		height: 100vh;
+		min-height: 900px;
+		max-height: 1000px;
+		width: 100%;
+	}
+	.welcome{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+	}
+	.home-header, .welcome-header{
+		margin: 0 auto;
+	}
+	.welcome-header{
+		margin-top: 5vh;
+	}
+	.home-header{
+		margin-top: 32px;
+	}
+	.home-arreglo{
+		width: 420px;
+		height: 420px;
+		display: block;
+		margin: 0 auto;
+	}
+	
+
+	/* general */
+		.titulo-seccion{
+			padding: 1rem 0;
+			font-size: 1.6rem;
+		}
+		.titulo-seccion span{
+			font-size: 2.8rem;
+		}
+		.s-header_p{
+			max-width: none;
+			width: 460px;
+			font-size: 1rem;
+		}
+		/* ins */
+			.card-ins{
+				width: 480px;
+			}
+			.card-ins_header{
+				height: 44px;
+			}
+			.ins_header_titulo{
+				font-size: 1.1rem;
+			}
+			.card-ins_body p{
+				font-size: .91rem;
+				width: 85%;
+			}
+			.card-ins_body img{
+				width: 90%;
+			}
+
+	/* chile */
+		.s-chile .titulo-seccion{
+			width: 380px;
+			max-width: none;
+		}
+
+	/* maiz */
+		.s-maiz .titulo-seccion{
+			width: 380px;
+			max-width: none;
+		}
+		.grafica-maiz{
+			width: 90%;
+		}
+
+	/* preparaciones */
+		.grafica-prep{
+			width: 90%;
+		}
+	
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+	body{
+		border: red solid;
+	}
+	.home,.welcome{
+		min-height: 1000px;
+		max-height: 1200px;
+	}
+	
+	.home-arreglo{
+		width: 500px;
+		height: 500px;
+		display: block;
+		margin: 0 auto;
+	}
+	.home-p, .welcome-p{
+		font-size: .91rem;
+	}
+	.home-header, .welcome-header{
+		max-width: 230px;
+	}
+	.welcome-header{
+		margin-bottom: 24px;
+		margin-top: 10vh;
+	}
+	.welcome-p{
+		/*width: 560px;*/
+		padding: 0 15%;
+	}
+
+	/* general */
+		
+	/* chile */
+		.tabs-chile_grafica{
+			max-width: 700px;
+		}
+		.chile-absolute.seco{
+			top: 35%;
+		}
+		.chile-Scoville{
+			font-size: .91rem;
+			padding: 0 10%;
+		}
+		.asterisco, .maiz-p{
+			font-size: .81rem;
+		}
+	/* maiz */
+		.grafica-maiz{
+			max-width: 800px;
+		}
+
+	/* preparaciones */
+		.prep-header_txt-titulo{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			height: 140px;
+			/*border-style: solid;*/
+			overflow: hidden;
+		}
+		.flor-prep{
+			width: 30%;
+			top: -10%;
+		}
+		.flor-prep-der{
+			right: -6px;
+		}
+		.flor-prep-izq{
+			left: -6px;
+		}
+		.prep-header_p{
+			padding: 1.5rem 0;
+			font-size: 1rem;
+			letter-spacing: .5px;
+			max-width: 500px;
+		}
+		/* cotas */
+			.platillos-ul-titulo{
+				width: max-content;
+			}
+			.ul-platillos{
+				font-size: 1rem;
+				width: 100%;
+				max-width: 400px;
+			}
+			.ul-platillos li:nth-child(5) img{
+				position: relative;
+				bottom: 0;
+			}
+		.s-puntos .card-ins img{
+			/*width: 55%;*/
+		}
+		.btn-prep{
+			width: 210px;
+			height: 60px;
+			font-size: 1rem;
+		}
+
+		/* platillos */
+			.prep-cazuela{
+				width: 25%;
+				top: 37%;
+				left: 35%;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 22%;
+				top: 33%;
+				left: 35%;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 22%;
+				top: 42%;
+				left: 39%;
+			}
+	
+}
+
+@media (max-width: 992px) and (orientation: landscape){
+	body{
+		border: gold solid;
+	}
+	/* Intro */
+		.hoja-fondo{
+			top: -300vh;
+			width: 600vh;
+			left: -300vh;
+		}
+		.home,.welcome{
+			min-height: 100vh;
+			display: grid;
+		}
+		.welcome{
+			padding: 18%;
+			grid-template-columns: 35% 65%;
+		}
+		.home-p, .welcome-p{
+			font-size: .7rem;
+		}
+		.welcome-header{
+			max-width: unset;
+			width: 95%;
+		}
+		.welcome-p{
+			text-align: left;
+		}
+		.welcome-p .img-mob{
+			display: none;
+		}
+		.welcome-p .img-desk{
+			display: block;
+			position: absolute;
+			bottom: -84%;
+			width: 20px;
+			right: 18%;
+		}
+		.home{
+			padding: 5%;
+			grid-template-columns: 40% 60%;
+			height: max-content
+		}
+		.home-header{
+			width: 70%;
+			max-width: unset;
+		}
+		.home-arreglo{
+			width: 280px;
+			height: 280px;
+			display: block;
+			margin: 0;
+		}
+	
+	/* General */
+		.s-todas{
+			display: grid;
+			grid-template-columns: 22% 54% 24%;
+			min-height: 140vh;
+			overflow-x: hidden;
+		}
+		/* col 1 */
+			.s-header{
+				text-align: left;
+				padding: 10% 5%;
+				min-height: 140vh;
+				position: relative;
+			}
+			.s-header .titulo-seccion{
+				font-size: 1.1rem;
+				width: 100%;
+				padding: 0;
+			}
+			.s-header .titulo-seccion span{
+				font-size: 1.6rem;
+			}
+			.s-header_p{
+				width: 100%;
+				font-size: .7rem;
+				line-height: 1.4;
+			}
+			.card-ins{
+				position: absolute;
+				width: 130%;
+				left: 2%;
+				bottom: 12px;
+			}
+			.card-ins_header{
+				height: max-content;
+				padding: 6px;
+			}
+			.ins_header_titulo{
+				font-size: .7rem;
+				padding-bottom: 0;
+			}
+			.card-ins_body{
+				padding: 12px 0;
+			}
+			.card-ins_body p{
+				font-size: .6rem;
+			}
+
+		/* col2 */
+			.s-col2{
+				width: 100%;
+			}
+			
+	/* Chile */
+		/* col 1 */
+			.chile-header{
+				background: var(--olivo);
+			}
+		/* col 2 */
+			.switch-mob{
+				/*display: none*/
+			}
+			.switch-desk{
+				display: none;
+			}
+			.tabs_chile{
+				overflow: scroll;
+				width: 52vw;
+			}
+		/* col 3 */
+			.cotas-mob{
+				display: none;
+			}
+			.cotas-arena{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: space-between;
+				align-items: space-between;
+				height: 100%;
+				padding: 0;
+			}
+			.flor-margen{
+				max-width: 60px;
+				display: none;
+				margin: 0 auto;
+			}
+			.cotas-desk-list{
+				display: flex;
+				flex-direction: column;
+				margin: 8px auto 0;
+				font-size: .6rem;
+			}
+			.cotas-desk-list>div{
+				display: flex;
+				margin: 1px auto;
+				align-content: center;
+				align-items: center;
+				width: 100%;
+			}
+			.cotas-desk-list>div img{
+				margin-right: 6px;
+				width: 12px;
+			}
+			.cotas-desk-list>div img.hoja{
+				width: 14px;
+				margin-left: -2px;
+			}
+			.scoville-desk{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				margin: 1rem 0;
+				font-size: .7rem;
+			}
+			.scoville-desk img{
+				width: 80%;
+				display: block;
+				margin: 6px auto 0;
+			}
+			.sin-rango{
+				margin: 4px auto 6px;
+				display: flex;
+				align-items: center;
+				align-content: center;
+				font-size: .6rem;
+				justify-content: center;
+			}
+			.sin-rango img{
+				width: 12px;
+				margin-right: 4px;
+			}
+			.cotas-arena_p{
+				font-size: .6rem;
+				line-height: 1.6;
+				width: 80%;
+				margin: 6px auto;
+			}
+			.chile-tabs_button{
+				margin: 0 auto;
+			}
+			.asterisco{
+				width: 80%;
+				font-size: .5rem;
+				max-width: none;
+				margin: 0 auto;
+				text-align: left;
+				padding: 0;
+				margin-top: 12px;
+			}
+			.nochebuena{
+				display: none;
+				margin: 6px auto;
+				width: 60px;
+			}
+		/* d3 */
+			#graficaChilesFrescos{
+				position: absolute;
+				transform-origin: 0% 70%;
+				left: 0;
+			}
+			#graficaChilesSecos{
+				position: absolute;
+				transform-origin: 0% 70%;
+				left: 0;
+			}
+			.tabs-chile_grafica{
+				display: block;
+				margin: auto;
+				width: 52vw;
+				visibility: hidden;
+			}
+			.chile-absolute.fresco{
+				position: absolute;
+				top: 44%;
+				left: 46%;
+				width: 7%;
+				transform: rotate(20deg);
+				animation: boton-twingle-c 2s ease infinite;
+			}
+			.chile-absolute.seco{
+				position: absolute;
+				top: 44%;
+				left: 46%;
+				width: 8%;
+				nimation: boton-twingle-c 2s ease infinite;
+			}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (orientation: portrait) {
+	body{
+		border: hotpink solid;
+	}
+	.home-header, .welcome-header{
+		margin-bottom: 5vh;
+		max-width: 260px;
+	}
+	.home-p, .welcome-p{
+		font-size: 1rem;
+	}
+	.welcome-p{
+		width: 600px;
+	}
+	.welcome-hojas{
+		width: 180px;
+		margin-top: 24px;
+	}
+	.welcome-abajo{
+		width: 36px;
+	}
+	.home-p{
+		max-width: 660px;
+	}
+	.home-arreglo{
+		width: 650px;
+		height: 650px;
+		margin: 25px auto;
+	}
+	/* mov */
+		#a1{
+			width: 15%;
+			top: -76%;
+			left: -20%;
+		}
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (orientation: landscape) {
+	body{
+		border: blue solid;
+	}
+	/* Intro */
+		.home,.welcome{
+			height: 100vh;
+			min-height: unset;
+			max-height: unset;
+			display: grid;
+		}
+		.welcome{
+			padding: 18%;
+			grid-template-columns: 45% 55%;
+		}
+		.home-p, .welcome-p{
+			font-size: .91rem;
+		}
+		.welcome-header{
+			max-width: unset;
+			width: 95%;
+			margin-left: 0;
+		}
+		.welcome-p{
+			width: 98%;
+			text-align: left;
+		}
+		.welcome-p .img-mob{
+			display: none;
+		}
+		.welcome-p .img-desk{
+			display: block;
+			position: absolute;
+			bottom: -86%;
+			width: 25px
+		}
+		.home{
+			padding: 10%;
+			grid-template-columns: 40% 60%;
+		}
+		.home-header{
+			width: 80%;
+			max-width: unset;
+		}
+		.home-arreglo{
+			width: 500px;
+			height: 500px;
+			display: block;
+			margin: 0;
+		}
+	
+	/* intro arena */
+		.intro-arena{
+			height: 100vh;
+			padding: 3rem 0;
+			min-height: 900px;
+		}
+		.animacion{
+			height: 100vh;
+			min-height: 900px;
+			width: 100vw;
+		}
+		.intro-arena_texto{
+			font-size: 1rem;
+		}
+		.intro-arena_arreglo{
+			height: 600px;
+			width: 600px;
+			top: 15%;
+		}
+		.animacion-corona{
+			height: 600px;
+			width: 600px;
+			top: 15%;
+		}
+	
+	/* animacion imagenes */
+
+	/* general */
+		.s-header_p{
+			width: 650px;
+		}
+		
+	/* chile */
+		.tabs-chile_grafica{
+			max-width: 850px;
+		}
+		.asterisco{
+			font-size: .91rem;
+		}
+		.chile-absolute.fresco{
+			width: 80px;
+		}
+		.chile-absolute.seco{
+			width: 110px;
+			left: 45%;
+		}
+		.chile-Scoville{
+			max-width: 1000px;
+			margin: 2rem auto;
+		}
+
+	/* preparaciones */
+		.flor-prep{
+			width: 25%;
+			top: -15%;
+		}
+		.prep-titulo{
+			font-size: 1.6rem;
+		}
+		.grafica-prep{
+			width: 80%;
+		}
+		/* platillos */
+			.prep-cazuela{
+				width: 20%;
+				top: 38%;
+				left: 38%;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 18%;
+				top: 34%;
+				left: 38%;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 18%;
+				top: 43%;
+				left: 41%;
+			}
+}
+
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	body{
+		border: red solid;
+	}
+	.home,.welcome{
+		height: 100vh;
+		min-height: unset;
+		max-height: unset;
+		display: grid;
+	}
+	.welcome{
+		padding: 18%;
+		grid-template-columns: 45% 55%;
+	}
+	.home-p, .welcome-p{
+		font-size: 1rem;
+	}
+	.welcome-header{
+		width: 90%;
+		max-width: 400px;
+	}
+	.home{
+		padding: 15%;
+	}
+	.home-header{
+		width: 95%;
+		max-width: 420px;
+	}
+	.home-arreglo{
+		width: 600px;
+		height: 600px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+	.hoja-fondo{
+		position: absolute;
+		top: -200vh;
+		width: 450vh;
+		left: -200vh;
+	}
+	/* mov */
+		#a1{
+			width: 20%;
+			top: -5%;
+			left: -155%;
+			transform: rotate(-185deg);
+		}
+
+	/* preparaciones */
+		.prep-grafica{
+			margin: 3rem auto 2rem;
+			width: max-content;
+		}
+		.grafica-prep{
+			width: 950px;
+		}
+		/* platillos */
+			.prep-cazuela{
+				width: 230px;
+				top: 400px;
+				left: 335px;
+			}
+		/* bebidas */
+			.prep-jarron{
+				width: 220px;
+				top: 320px;
+				left: 320px;
+			}
+		/* postres */
+			.prep-pepitoria{
+				width: 220px;
+				top: 380px;
+				left: 360px;
+			}
+	
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+	body{
+		border: cyan solid;
+	}
+	.home-arreglo{
+		width: 650px;
+		height: 650px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 24px;
+	}
+	/* general */
+		.s-maiz{
+			display: none;
+		}
+		.s-todas-desk{
+			display: grid;
+			grid-template-columns: 22% 78%;
+			min-height: 900px;
+			height: 100vh;
+		}
+		.col-color{
+			padding: 8% 10%;
+			color: var(--arena);
+			position: relative;
+		}
+		.s-todas-desk .titulo-seccion span{
+			font-size: 3.4rem;
+		}
+		.col-color>p{
+			padding-right: 20%;
+			line-height: 1.6;
+		}
+		.s-todas_xdata{
+			margin: 0 0 2rem;
+			width: 50px;
+		}
+		.card-ins-desk .card-ins{
+			position: absolute;
+			left: 40%;
+			bottom: 3%;
+		}
+		.card-ins{
+			border: 1px solid #808080;
+			display: block;
+			border-radius: 24px;
+			text-align: center;
+			width: 400px;
+			background-color: var(--arena);
+			color: var(--negro3f);
+		}
+		.card-ins_header{
+			border-bottom: 1px solid #808080;
+			height: 45px;
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+		}
+
+		.ins_header_titulo{
+			font-family: 'IM', serif;
+			font-weight: lighter;
+			text-transform: uppercase;
+			font-size: 1.1rem;
+			letter-spacing: 1px;
+		}
+		.card-ins_body{
+			padding: 1rem 0px;
+		}
+		.card-ins_body p{
+			font-size: .9rem;
+			line-height: 1.4;
+		}
+
+	/* chile */
+		.col-verde{
+			background-color: var(--olivo);
+		}
+		.flor-verde{
+			position: relative;
+			left: -15%;
+			margin: 8% 0 12%;
+			height: 10%;
+		}
+		
+		.chile-ins-desk .card-ins_body img{
+			width: 95%;
+			margin: auto;
+			margin-top: 1rem;
+		}
+
+		/* chile arena */
+			.col-arena{
+				background-color: var(--arena2);
+				display: grid;
+				grid-template-columns: 70% 30%;
+				padding: 0;
+			}
+			.arena-desk-img{
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				width: 100%;
+			}
+			.tabs-chile_grafica{
+				width: 98%;
+				max-width: 1000px;
+				max-width: none;
+				position: relative;
+				left: 2rem;
+			}
+			.chile-absolute.fresco{
+				position: absolute;
+				top: 37%;
+				left: 52%;
+				width: 10%;
+				transform: rotate(20deg);
+				animation: boton-twingle-c 2s ease infinite;
+			}
+			.chile-absolute.seco{
+				position: absolute;
+				top: 38%;
+				left: 48%;
+				width: 100px;
+				animation: boton-twingle-c 2s ease infinite;
+			}
+		/* chile cotas */
+			.button-frescosD.active{
+				background-color: #099597;
+				background: rgb(31,118,142);
+				background: linear-gradient(90deg, rgba(31,118,142,1) 0%, rgba(1,159,154,1) 100%);
+				color: var(--arena);
+				border: none;
+				padding-left: 0;
+			}
+			.button-secosD.active{
+				background-color: #e08744;
+				background: rgb(233,109,91);
+				background: linear-gradient(90deg, rgba(233,109,91,1) 0%, rgba(224,134,69,1) 100%);
+				color: var(--arena);
+				border: none;
+				padding-right: 0;
+			}
+			.cotas-arena{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: space-between;
+				align-items: space-between;
+				height: 100%;
+				padding: 0;
+			}
+			.flor-margen{
+				max-width: 130px;
+				display: block;
+				margin: 0 auto;
+			}
+
+			.cotas-desk-list{
+				display: flex;
+				flex-direction: column;
+				margin: .5rem auto 0;
+				/*border-style: solid;*/
+			}
+			.cotas-desk-list>div{
+				display: flex;
+				margin: 4px auto;
+				align-content: center;
+				align-items: center;
+				width: 100%
+			}
+			.cotas-desk-list>div img{
+				margin-right: 6px;
+				width: 18px;
+			}
+			.cotas-desk-list>div img.hoja{
+				width: 24px;
+				margin-left: -6px;
+			}
+			.scoville-desk{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				margin: 1rem 0;
+			}
+			.scoville-desk img{
+				width: 60%;
+				display: block;
+				margin: 5% auto 0;
+			}
+			.sin-rango{
+				margin: 1rem auto 2rem;
+				display: flex;
+				align-items: center;
+				align-content: center;
+				font-size: .81rem;
+				justify-content: center;
+			}
+			.sin-rango img{
+				width: 20px;
+				margin-right: 6px;
+			}
+			.cotas-arena_p{
+				font-size: .91rem;
+				line-height: 1.6;
+				width: 80%;
+				margin: 0 auto;
+			}
+			.chile-tabs_button{
+				margin: 0 auto;
+			}
+			.asterisco{
+				width: 80%;
+				font-size: .81rem;
+				max-width: none;
+				margin: 0 auto;
+				text-align: left;
+				padding: 0;
+			}
+			.nochebuena{
+				display: block;
+				margin: 6px auto;
+				width: 60px;
+			}
+
+	/* General */
+		.s-todas{
+			display: grid;
+			grid-template-columns: 22% 54% 24%;
+			min-height: 140vh;
+			overflow-x: hidden;
+		}
+		/* col 1 */
+			.s-header{
+				text-align: left;
+				padding: 10% 5%;
+				min-height: 140vh;
+				position: relative;
+			}
+			.s-header .titulo-seccion{
+				font-size: 1.1rem;
+				width: 100%;
+				padding: 0;
+			}
+			.s-header .titulo-seccion span{
+				font-size: 1.6rem;
+			}
+			.s-header_p{
+				width: 100%;
+				font-size: .7rem;
+				line-height: 1.4;
+			}
+			.card-ins{
+				position: absolute;
+				width: 130%;
+				left: 2%;
+				bottom: 12px;
+			}
+			.card-ins_header{
+				height: max-content;
+				padding: 6px;
+			}
+			.ins_header_titulo{
+				font-size: .7rem;
+				padding-bottom: 0;
+			}
+			.card-ins_body{
+				padding: 12px 0;
+			}
+			.card-ins_body p{
+				font-size: .6rem;
+			}
+
+		/* col2 */
+			.s-col2{
+				width: 100%;
+			}
+			
+	/* Chile */
+		/* col 1 */
+			.chile-header{
+				background: var(--olivo);
+			}
+		/* col 2 */
+			.switch-mob{
+				/*display: none*/
+			}
+			.switch-desk{
+				display: none;
+			}
+			.tabs_chile{
+				overflow: scroll;
+				width: 52vw;
+			}
+		/* col 3 */
+			.cotas-mob{
+				display: none;
+			}
+			.cotas-arena{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: space-between;
+				align-items: space-between;
+				height: 100%;
+				padding: 0;
+			}
+			.flor-margen{
+				max-width: 60px;
+				display: none;
+				margin: 0 auto;
+			}
+			.cotas-desk-list{
+				display: flex;
+				flex-direction: column;
+				margin: 8px auto 0;
+				font-size: .6rem;
+			}
+			.cotas-desk-list>div{
+				display: flex;
+				margin: 1px auto;
+				align-content: center;
+				align-items: center;
+				width: 100%;
+			}
+			.cotas-desk-list>div img{
+				margin-right: 6px;
+				width: 12px;
+			}
+			.cotas-desk-list>div img.hoja{
+				width: 14px;
+				margin-left: -2px;
+			}
+			.scoville-desk{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				margin: 1rem 0;
+				font-size: .7rem;
+			}
+			.scoville-desk img{
+				width: 80%;
+				display: block;
+				margin: 6px auto 0;
+			}
+			.sin-rango{
+				margin: 4px auto 6px;
+				display: flex;
+				align-items: center;
+				align-content: center;
+				font-size: .6rem;
+				justify-content: center;
+			}
+			.sin-rango img{
+				width: 12px;
+				margin-right: 4px;
+			}
+			.cotas-arena_p{
+				font-size: .6rem;
+				line-height: 1.6;
+				width: 80%;
+				margin: 6px auto;
+			}
+			.chile-tabs_button{
+				margin: 0 auto;
+			}
+			.asterisco{
+				width: 80%;
+				font-size: .5rem;
+				max-width: none;
+				margin: 0 auto;
+				text-align: left;
+				padding: 0;
+				margin-top: 12px;
+			}
+			.nochebuena{
+				display: none;
+				margin: 6px auto;
+				width: 60px;
+			}
+		/* d3 */
+			#graficaChilesFrescos{
+				position: absolute;
+				transform-origin: 0% 70%;
+				left: 0;
+			}
+			#graficaChilesSecos{
+				position: absolute;
+				transform-origin: 0% 70%;
+				left: 0;
+			}
+			.tabs-chile_grafica{
+				display: block;
+				margin: auto;
+				width: 52vw;
+				visibility: hidden;
+			}
+			.chile-absolute.fresco{
+				position: absolute;
+				top: 44%;
+				left: 46%;
+				width: 7%;
+				transform: rotate(20deg);
+				animation: boton-twingle-c 2s ease infinite;
+			}
+			.chile-absolute.seco{
+				position: absolute;
+				top: 44%;
+				left: 46%;
+				width: 8%;
+				nimation: boton-twingle-c 2s ease infinite;
+			}
+
+	/* maiz */
+		.col-rosa{
+			background-color: var(--rosa);
+		}
+		.maiz-ins-desk .card-ins_body img{
+			width: 60%;
+			margin: auto;
+			margin-top: 1rem;
+		}
+		.col-rosa_p{
+			margin-top: 10%;
+		}
+		.flor-rosa{
+			position: absolute;
+			height: 25%;
+			left: -25%;
+			bottom: 21%;
+		}
+		.col-arena-maiz{
+			/*border-style: solid;*/
+			display: flex;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+		.grafica-maiz-desk{
+			width: 950px;
+		}
+		.maiz-maiz-desk{
+			width: 110px;
+			animation: boton-twingle-c 2s ease infinite;
+		}
+
+	/* puntos */
+		.container-puntos{
+			display: none;
+		}
+		.container-puntos-desk{
+			display: block;
+		}
+
+	/* preparaciones */
+		.container-puntos-desk{
+			height: 400vh;
+			position: relative;
+		}
+		.s-puntos{
+			display: none;
+		}
+		.s-puntos-desk{
+			display: grid;
+			grid-template-columns: 22% 55% 23%;
+			position: sticky;
+			top: 0;
+		}
+		.s-platillos-desk{
+			background-color: var(--arena2);
+		}
+		
+		
+		/* col 1 */
+			.prep-col1{
+				padding: 15% 10%;
+				position: relative;
+				min-height: 100vh;
+			}
+			.flor-pcol1{
+				width: 80%;
+				position: relative;
+				left: -20%;
+			}
+			.platillos-col1 .titulo-seccion{
+				font-size: 1.6rem;
+				line-height: 1.4;
+			}
+			.platillos-col1 .titulo-seccion span{
+				font-size: 2.5rem;
+				line-height: 1.2;
+			}
+			.prep-titulo{
+				font-size: 1.8rem;
+			}
+			.prep-col1-p{
+				margin: 1rem 0 0;
+				line-height: 1.6;
+				width: 75%;
+			}
+			.texto-puntos{
+				position: relative;
+				transition: all .4s ease;
+				left: 0;
+				margin-top: 1rem;
+			}
+
+		/* col2 */
+			.prep-col2 {
+				display: flex;
+				justify-content: center;
+				align-content: center;
+				align-items: center;
+				position: relative;
+			}
+			.prep-col2-graf{
+				position: relative;
+				max-width: 98%;
+			}
+			.prep-col2-icon{
+				position: absolute;
+				width: 25%;
+				top: 40%;
+				left: 34%;
+				animation: boton-twingle-c 2s ease infinite;
+			}
+
+		/* col3 */
+			.platillos-col3{
+				padding: 2rem 0;
+			}
+			/* ins */
+				.platillos-ins .card-ins{
+					width: 95%;
+					margin: auto;
+				}
+				.platillos-ins .ins_header_titulo{
+					font-size: 1.2rem;
+				}
+				.platillos-ins .card-ins_body p{
+					font-size: .875rem;
+					line-height: 1.4;
+				}
+				.platillos-ins .card-ins_body p.p-detalle{
+					font-size: .875rem;
+					max-width: 100%;
+				}
+				 .platillos-ins .card-ins_body img{
+					width:70%;
+					margin: .6rem 0;
+				}
+
+			/* cotas */
+				.platillos-cotas{
+					text-align: center;
+				}
+				.platillos-ul-titulo{
+					width: 80%;
+					font-size: 1.3rem;
+				}
+				.platillos-cotas>img{
+					width: 35%;
+					max-width: 140px;
+				}
+				.ul-platillos{
+					padding: 0  0 1rem;
+					font-size: 1rem;
+					column-count: 1;
+					width: max-content;
+					display: block;
+					margin: auto;
+				}
+				.ul-platillos li{
+					display: flex;
+					align-items: center;
+					padding:  6px 0;
+				}
+				.ul-platillos li img{
+					width: 20px;
+					margin-right: 10px;
+				}
+				.ul-platillos li:nth-child(5) img{
+					bottom: 0px;
+					margin-right: 17px;
+				}
+			.btn-prep{
+				height: 50px;
+			}
+			.btn-platillos{
+				background: rgb(32,164,134);
+				background: linear-gradient(90deg, rgba(32,164,134,1) 19%, rgba(149,178,81,1) 100%);
+				margin: 0 auto;
+				color: var(--arena2);
+			}
+			.btn-bebidas{
+				margin: 0 auto;
+				color: var(--arena2);
+			}
+
+	/* overlay */
+		.my-modal {
+		    position: fixed;
+		    background-color: var(--arena);
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    display: none;
+		    overflow: auto;
+		    z-index: 10;
+		}
+		.my-modal-content {
+		    position: absolute;
+		    width: max-content;
+		    text-align: center;
+		    background-color: var(--arena);
+		    box-shadow: none;
+		}
+		.my-modal-content-desk{
+		    height: max-content;
+		    width: 100%;
+		}
+		#detalles-desk{
+			width: 150%;
+		}
+		#close-platillos-desk{
+			position: fixed;
+
+
+			top: 1rem;
+			right: 2rem;
+		}
+		.my-modal-content-desk h3{
+			font-family: 'IM',serif;
+			font-size: 1.6rem;
+			font-weight: lighter;
+			width: 300px;
+			text-align: left;
+			margin: 2rem 5%;
+		}
+	
+	/* efectos de scroll */
+		.s-bebidas-desk{
+			height: 150vh;
+			/*background-color: pink;*/
+		}
+		.s-postres-desk{
+			height: 150vh;
+			/*background-color: lavender;*/
+		}
+		#bandera-bebidas-texto{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			background-color: transparent;
+		}
+		#bandera-postres-texto{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			top: 90%;
+			left: 0;
+			background-color: transparent;
+		}
+		.textoPlatillos{
+			position: relative;
+			left: 0;
+			animation-name: textoPlatillos;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoPlatillos {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+		.textoBebidas{
+			position: relative;
+			left: 0;
+			animation-name: textoBebidas;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoBebidas {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+		.textoPostres{
+			position: relative;
+			left: 0;
+			animation-name: textoPostres;
+			animation-duration: 3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+		}
+		@keyframes textoPostres {
+			50%{
+				left: -150%;
+			}
+			
+			100%{
+				left: 0;
+			}
+		}
+		
+}
+
+@media (min-width: 1600px) {
+
+	
+}

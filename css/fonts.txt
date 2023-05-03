@@ -1,0 +1,14 @@
+styles: 
+
+	p .75rem
+	ins .65rem
+
+400px
+	p .8rem
+	i .75rem
+
+small
+	875rem
+
+med	
+	
